@@ -19,6 +19,7 @@ namespace Utils
             return result;
         }
 
+// wale wale
         public static T[] Filter<T>(Func<T, bool> satisfy, T[] lox)
         {
             //var result = new T[lox.Count];
