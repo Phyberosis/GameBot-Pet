@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ki3PzXr5F6SD1NZv7wmq5g8I8oKf9N/ihEGQa1EUND2DnlDM7dlGKNEA2O/FyDuQuCGdM7PUaRPXGsjQCvkEbw==",
+  "success": true,
+  "projectFilePath": "C:\\workspace\\CSharp\\GameBot-pet\\Events\\Events.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phybe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\phybe\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
