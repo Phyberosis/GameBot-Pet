@@ -21,7 +21,7 @@ namespace Utils
 
         public static T[] Filter<T>(Func<T, bool> satisfy, T[] lox)
         {
-            var result = new T[](lox.Count);
+            //var result = new T[lox.Count];
             var keep = new int[lox.Length];
             int ki = 0;
             foreach (int i = 0; i < lox.Length; i++)
