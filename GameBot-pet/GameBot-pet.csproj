@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -48,6 +49,20 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OSEnvironment\OSEnvironment.csproj">
+      <Project>{a848538d-7c4f-4e1f-82fa-e0e476ec46c6}</Project>
+      <Name>OSEnvironment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OutputSimulator\OutputSimulator.csproj">
+      <Project>{ec66206c-bd26-4412-a9f7-ee3a80badb33}</Project>
+      <Name>OutputSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScreenInput\ScreenInput.csproj">
+      <Project>{4044c074-cebd-4a5d-9913-a4e6fc1b5567}</Project>
+      <Name>ScreenInput</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

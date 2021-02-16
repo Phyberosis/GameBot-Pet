@@ -32,7 +32,7 @@ namespace Utils
                 }
             }
 
-            Array.Resize(ref result, resultIndex + 1);
+            Array.Resize(ref result, resultIndex);
             return result;
         }
     }
