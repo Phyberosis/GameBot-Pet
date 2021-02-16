@@ -19,21 +19,21 @@ namespace Utils
             return result;
         }
 
-// wale wale
         public static T[] Filter<T>(Func<T, bool> satisfy, T[] lox)
         {
-            //var result = new T[lox.Count];
-            var keep = new int[lox.Length];
-            int ki = 0;
-            foreach (int i = 0; i < lox.Length; i++)
+            var result = new T[lox.Length];
+            int resultIndex = 0;
+            foreach (T x in lox)
             {
-                if (satisfy(lox[int]))
+                if (satisfy(x))
                 {
-
+                    result[resultIndex] = x;
+                    resultIndex++;
                 }
             }
 
-            return lox;
+            Array.Resize(ref result, resultIndex + 1);
+            return result;
         }
     }
 }

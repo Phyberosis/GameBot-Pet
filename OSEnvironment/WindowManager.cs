@@ -17,7 +17,8 @@ namespace OSEnvironment
         {
             return Procedural.Map((Process p) => {
                 return p.MainWindowTitle;
-            }, Process.GetProcesses());
+            }, 
+            Procedural.Filter(() Process.GetProcesses());
         }
     }
 }
